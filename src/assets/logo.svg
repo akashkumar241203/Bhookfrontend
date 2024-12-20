@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <!-- Background Circle -->
+    <circle cx="100" cy="100" r="90" fill="#ff4b4b" />
+    
+    <!-- Plate -->
+    <circle cx="100" cy="100" r="60" fill="white" />
+    <circle cx="100" cy="100" r="55" fill="none" stroke="#ff4b4b" stroke-width="2" />
+    
+    <!-- Fork and Spoon -->
+    <g transform="translate(100,100) rotate(-45)">
+        <!-- Fork -->
+        <rect x="-25" y="-8" width="4" height="45" rx="2" fill="#ff4b4b" />
+        <rect x="-32" y="-8" width="4" height="25" rx="2" fill="#ff4b4b" />
+        <rect x="-18" y="-8" width="4" height="25" rx="2" fill="#ff4b4b" />
+        
+        <!-- Spoon -->
+        <rect x="14" y="-8" width="4" height="45" rx="2" fill="#ff4b4b" />
+        <circle cx="16" cy="-8" r="8" fill="#ff4b4b" />
+    </g>
+    
+    <!-- Speed Lines -->
+    <path d="M160,100 C170,90 180,100 180,100" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" />
+    <path d="M160,110 C170,100 180,110 180,110" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" />
+    <path d="M160,120 C170,110 180,120 180,120" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" />
+</svg>
